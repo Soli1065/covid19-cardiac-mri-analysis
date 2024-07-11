@@ -11,4 +11,5 @@ This repository contains the analysis pipeline for evaluating myocardial damage 
 ```bash
 python -m venv env
 source env\Scripts\activate
-pip install -r requirements.txt
+
+pip install pandas numpy matplotlib seaborn nibabel scikit-learn
